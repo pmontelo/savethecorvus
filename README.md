@@ -4,6 +4,7 @@ Preservation of Corvus Hard Disk Drives for Apple II Computers. Focusing on the 
 ### Disclaimer:
 This is provided AS-IS with NO WARRANTY. Derived from reverse engineering the firmware for the Corvus Apple II Parallel Interface Card; original Corvus IP may apply—use responsibly.
 Backup all important Corvus hard disk data before converting from the original Corvus firmware to the ProROM firmware.
+*No information stored on the hard drive with the original firmware will be accessible.*
 
 ### History:
 In 1984, I developed custom firmware for the Corvus Hard Drive for Apple II computers using the parallel (flat-cable) interface card. This "ProROM" firmware gives the Corvus Hard Drive the capability of booting to Apple ProDOS, and also provides the capability to dedicate part of the hard disk drive space to DOS 3.3 Volumes similar to how the original Corvus Apple II firmware worked. Corvus never provided support for the ProDOS operating system.
