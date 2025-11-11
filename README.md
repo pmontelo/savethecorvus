@@ -1,5 +1,5 @@
 # #savethecorvus
-Preservation of Corvus Hard Disk Drives for Apple II Computers. Focusing on the Custom ProDOS/DOS 3.3 firmware for the Parallel Apple II Interface Card that I created in 1984, Patrick Montelo
+Preservation of Corvus Hard Disk Drives for Apple II Computers. Focusing on the Custom ProDOS/DOS 3.3 firmware for the Parallel Apple II Interface Card that created by Patrick Montelo in 1984, and cleaned up in 2025 for public release.
 
 ### Disclaimer
 This is provided AS-IS with NO WARRANTY. Derived from reverse engineering the firmware for the Corvus Apple II Parallel Interface Card; original Corvus IP may apply—use responsibly.
