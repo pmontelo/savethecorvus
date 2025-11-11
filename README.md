@@ -17,7 +17,7 @@ Support for 1 ProDOS volume per hard disk drive with 0 or more 50 track DOS 3.3 
 The Corvus multiplexer can be used to support up to 8 Apple II computers sharing 1 or 2 hard drives.
 
 ### How It Works
-This firmware contains both a ProDOS block I/O driver, and a DOS 3.3 RWTS driver in firmware.
+This firmware contains both a ProDOS block I/O driver, and a DOS 3.3 RWTS driver in the 2716 EPROM.
 When booting, the hard disk drive will boot into ProDOS first.
 From ProDOS, you can switch to DOS 3.3 by executing a binary DOS 3.3 binary program stored in the ProDOS volume. Both Apple DOS 3.3 and Diversi-DOS are supported.
 Once in DOS, you access disk volumes by adding a ",Vnnn" to a DOS command, as was done with the original Corvus firmware.
