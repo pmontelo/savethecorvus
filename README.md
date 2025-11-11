@@ -36,3 +36,4 @@ Once you have installed the ProROM firmware into your Corvus Apple II parallel i
 
 ### Source Code
 All assembly language source code was created using EDASM for ProDOS
+The source code is in the [src](src/edasm) folder. The files in this folder were extracted from ProDOS disk volumes using [CiderPress2](https://ciderpress2.com/). The do not have a .asm extension, but are standard Apple II text files containing EDASM for ProDOS compatible source code. 
