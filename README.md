@@ -3,8 +3,8 @@ Preservation of Corvus Hard Disk Drives for Apple II Computers. Focusing on the 
 
 ### Disclaimer:
 This is provided AS-IS with NO WARRANTY. Derived from reverse engineering the firmware for the Corvus Apple II Parallel Interface Card; original Corvus IP may apply—use responsibly.
-Backup all important Corvus hard disk data before converting from the original Corvus firmware to the ProROM firmware.
-WARNING: No information stored on the hard drive with the original Corvus firmware will be accessible with the ProROM.
+Backup all Corvus hard disk data before converting from the original Corvus firmware to the ProROM firmware.
+WARNING: No information stored on the hard drive with the original Corvus firmware will be accessible with the ProROM, you will be starting fresh. Treat this as the equivalent of a format.
 
 ### History:
 In 1984, I developed custom firmware for the Corvus Hard Drive for Apple II computers using the parallel (flat-cable) interface card. This "ProROM" firmware gives the Corvus Hard Drive the capability of booting to Apple ProDOS, and also provides the capability to dedicate part of the hard disk drive space to DOS 3.3 Volumes similar to how the original Corvus Apple II firmware worked. Corvus never provided support for the ProDOS operating system.
@@ -32,4 +32,4 @@ The ProROM makes this first block appear to ProDOS as block # -1, $FFFF
 You can inspect and modify this configuration block using the ProDOS Excersiser to Read or Write block $FFFF
 
 ### Configuring the ProROM
-Once you have installed the ProROM firmware into your Corvus Apple II parallel interface card, you must first configure the size of the hard disk drive, and tell the firmware how many DOS 3.3 volumes you would like on the hard drive. This is done by using the provided "ProROM 2025 Configuration Software". Please see the "ProROM 2025 Quick Start" document.
+Once you have installed the ProROM firmware into your Corvus Apple II parallel interface card, you must first configure the size of the hard disk drive, and tell the firmware how many DOS 3.3 volumes you would like on the hard drive. This is done by using the provided "ProROM 2025 Configuration Software". Please see the ["ProROM 2025 Quick Start"](https://github.com/pmontelo/savethecorvus/blob/main/Corvus%20ProROM%20Quick%20Start.pdf) document.
