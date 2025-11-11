@@ -23,16 +23,16 @@ From ProDOS, you can switch to DOS 3.3 by executing a binary DOS 3.3 binary prog
 Once in DOS, you access disk volumes by adding a ",Vnnn" to a DOS command, as was done with the original Corvus firmware.
 Unlike the Corvus firmware, the DOS volumes are designed to store more files by using 50 tracks per DOS volume instead of 35.
 When switching to DOS from ProDOS, DOS will attempt to run the "HELLO" program on the highest DOS volume number configured.
-For example, if you configure the drive with 25 DOS volumes, switching to DOS will attemnpt to run "HELLO" on volume 25 when it boots.
+For example, if you configure the drive with 25 DOS volumes, switching to DOS will attempt to run "HELLO" on volume 25 when it boots.
 To switch back to ProDOS, simply reboot the computer.
 
 ### Implementation Details
 The partitioning information is stored on the first 512 byte hard disk drive block.
 The ProROM makes this first block appear to ProDOS as block # -1, $FFFF
-You can inspect and modify this configuration block using the ProDOS Excersiser to Read or Write block $FFFF
+You can inspect and modify this configuration block using the ProDOS Exerciser to Read or Write block $FFFF
 
 ### Configuring the ProROM
-Once you have installed the ProROM firmware into your Corvus Apple II parallel interface card, you must first configure the size of the hard disk drive, and tell the firmware how many DOS 3.3 volumes you would like on the hard drive. This is done by using the provided "ProROM 2025 Configuration Software". Please see the ["ProROM 2025 Quick Start"](https://github.com/pmontelo/savethecorvus/blob/main/Corvus%20ProROM%20Quick%20Start.pdf) document.
+Once you have installed the ProROM firmware into your Corvus Apple II parallel interface card, you must first configure the size of the hard disk drive, and tell the firmware how many DOS 3.3 volumes you would like on the hard drive. This is done by using the provided [ProROM 2025 Configuration Software](https://github.com/pmontelo/savethecorvus/blob/main/disk-images/ProROM%202025%20Disk%201%20-%20ProROM%20Configuration%20Utility%20-%20DOS%203.3.dsk). Please see the ["ProROM 2025 Quick Start"](https://github.com/pmontelo/savethecorvus/blob/main/Corvus%20ProROM%20Quick%20Start.pdf) document.
 
 ### Source Code
 All assembly language source code was created using EDASM for ProDOS
