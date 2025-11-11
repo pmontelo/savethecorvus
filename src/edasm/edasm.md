@@ -10,4 +10,4 @@ Attempting to compile in another assembler is likely to lead to frustration and 
 [ProROM firmware](https://github.com/pmontelo/savethecorvus/blob/main/src/edasm/PROROM%23040000)
 
 ### Source Code for the ProROM configuration utility
-[Used by ProROM Configuration Utilities](https://github.com/pmontelo/savethecorvus/blob/main/src/edasm/CPD%23040000)
+[ProROM Configuration Utilities](https://github.com/pmontelo/savethecorvus/blob/main/src/edasm/CPD%23040000)
