@@ -9,7 +9,7 @@ WARNING: No information stored on the hard drive with the original Corvus firmwa
 ### History
 In 1984, I developed custom firmware for the Corvus Hard Drive for Apple II computers using the parallel (flat-cable) interface card. This "ProROM" firmware gives the Corvus Hard Drive the capability of booting to Apple ProDOS, and also provides the capability to dedicate part of the hard disk drive space to DOS 3.3 Volumes similar to how the original Corvus Apple II firmware worked. Corvus never provided support for the ProDOS operating system.
 
-This custom also provides slot independence for the Corvus interface card. The original Corvus firmware was hard coded to the I/O addresses for Slot 6.
+This custom ProROM firmware also provides slot independence for the Corvus interface card. The original Corvus firmware was hard coded to the I/O addresses for Slot 6.
 
 ## ProROM Features
 Support for 1 ProDOS volume per hard disk drive with 0 or more 50 track DOS 3.3 volumes.
