@@ -5,3 +5,5 @@ All 6502 source code is designed for the EDASM for ProDOS Editor Assembler.
 For lightning quick compiles, I suggest assembling the code on an Apple II Emulator like [Virtual II](https://www.virtualii.com/) or [AppleWin](https://github.com/AppleWin/AppleWin) with the emulator set to run at full speed.
 
 Attempting to compile in another assembler is likely to lead to frustration and non-working object code.
+
+[ProROM firmware](https://github.com/pmontelo/savethecorvus/blob/main/src/edasm/PROROM%23040000)
