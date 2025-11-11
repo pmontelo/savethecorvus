@@ -7,3 +7,4 @@ For lightning quick compiles, I suggest assembling the code on an Apple II Emula
 Attempting to compile in another assembler is likely to lead to frustration and non-working object code.
 
 [ProROM firmware](https://github.com/pmontelo/savethecorvus/blob/main/src/edasm/PROROM%23040000)
+[Used by ProROM Configuration Utilities](https://github.com/pmontelo/savethecorvus/blob/main/src/edasm/CPD%23040000)
