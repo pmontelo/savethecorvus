@@ -30,3 +30,6 @@ To switch back to ProDOS, simply reboot the computer.
 The partitioning information is stored on the first 512 byte hard disk drive block.
 The ProROM makes this first block appear to ProDOS as block # -1, $FFFF
 You can inspect and modify this configuration block using the ProDOS Excersiser to Read or Write block $FFFF
+
+### Configuring the ProROM
+Once you have installed the ProROM firmware into your Corvus Apple II parallel interface card, you must first configure the size of the hard disk drive, and tell the firmware how many DOS 3.3 volumes you would like on the hard drive. This is done by using the provided "ProROM 2025 Configuration Software". Please see the "ProROM 2025 Quick Start" document.
