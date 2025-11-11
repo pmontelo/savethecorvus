@@ -14,3 +14,6 @@ Attempting to compile in another assembler is likely to lead to frustration and 
 
 ### Slot Independent Corvus Block I/O, no custom EPROM required
 [Slot Independent I/O](https://github.com/pmontelo/savethecorvus/blob/main/src/edasm/CRW%23040000)
+
+### Code to Bootstrap DOS 3.3 and DIVERSI DOS from ProDOS
+[DOS Bootstrap](https://github.com/pmontelo/savethecorvus/blob/main/src/edasm/DOS%23040000)
