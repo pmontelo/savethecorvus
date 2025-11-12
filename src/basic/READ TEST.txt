@@ -1,0 +1,31 @@
+10 REM Corvus Block Read Test
+11 PRINT CHR$(4)"BLOAD CRW.0,A$4000"
+12 BASE = 16384 : REM A$4000
+13 ST = BASE : REM status
+14 IO = ST+1 : REM IO offset (slot * 16)
+15 DR = IO+1 : REM drive number 1 or 2
+16 BL = DR+1 : REM block number LSB
+17 BH = BL+1 : REM block number MSB
+18 RB = BH+1 : REM read block
+19 WB = RB+3 : REM write block
+20 TR = WB+3 : REM read block to text screen
+21 RA = TR+3 : REM read all blocks
+22 TW = RA+3 : REM write block and show on text screen
+23 WA = TW+3 : REM write all hard disk blocks (destructive!)
+25 CALL RA : STOP : REM read all blocks, stops on escape
+27 REM
+28 REM Basic read all example below
+29 REM
+30 ML = 255 : MH = 189 : REM 11 MB maximum 256 byte block number 48639 ($BDFF) LSB and MSB
+40 CL = 0 : CH = 0 : CB = 0 : REM current block number 0 ($0000) LSB and MSB
+50 TB = MH * 256 + ML : REM total blocks
+60 HOME : VTAB 8: PRINT "Running block read test"
+80 PRINT "Reading blocks 0 through " TB
+90 REM loop through all blocks
+100 POKE BL, CL: POKE BH, CH: CALL TR
+110 VTAB 10: PRINT "Read block: " CB ", status: " PEEK(ST)
+120 IF PEEK(ST) <> 0 THEN STOP : REM invalid block number or IO error
+130 CL = CL + 1: IF CL > 255 THEN CL = 0 : CH = CH + 1
+140 CB = CH * 256 + CL
+150 IF CB <= TB THEN GOTO 100 
+160 PRINT "Finished test."
