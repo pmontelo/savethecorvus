@@ -1,0 +1,3 @@
+# EDASM / Apple II text sources — store as LF
+src/edasm/** text eol=lf
+*.md text eol=lf
